@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CSS Mastery</title>
+  <title>Advanced CSS Mastery</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,29 +11,33 @@
 
   <main>
     <!-- Interactive UI Elements -->
-    <div class="interactive-section">
-      <button class="grow-button">Grow</button>
-      <button class="rotate-button">Rotate</button>
-      <button class="color-change-button">Change Color</button>
-      <button class="shake-button">Shake</button>
-      <button class="bounce-button">Bounce</button>
-    </div>
+    <section class="interactive-section">
+      <button class="button transition-button">Fade</button>
+      <button class="button rotate-button">Rotate</button>
+      <input type="range" class="slider">
+      <div class="toggle-switch">
+        <input type="checkbox" class="toggle-checkbox">
+        <div class="toggle-slider"></div>
+      </div>
+    </section>
 
     <!-- Pseudo-Element Section -->
-    <div class="pseudo-section">
-      <p class="decorative-text">Sophisticated</p>
-    </div>
+    <section class="pseudo-section">
+      <div class="decorative-box">Creative</div>
+    </section>
 
     <!-- 3D Elements -->
-    <div class="cube">
-      <div class="cube-face front">Front</div>
-      <div class="cube-face back">Back</div>
-      <div class="cube-face left">Left</div>
-      <div class="cube-face right">Right</div>
-    </div>
+    <section class="cube-section">
+      <div class="cube">
+        <div class="cube-face front">Front</div>
+        <div class="cube-face back">Back</div>
+        <div class="cube-face left">Left</div>
+        <div class="cube-face right">Right</div>
+      </div>
+    </section>
   </main>
 
-  <footer>Footer</footer>
+  <footer class="footer">Footer</footer>
 
 </body>
 </html>

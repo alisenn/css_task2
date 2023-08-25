@@ -1,46 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>CSS Mastery</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Mastery</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="custom-cursor">CSS Mastery</header>
-
-  <main>
-    <!-- Interactive UI Elements -->
-    <section class="interactive-section">
-      <h2>Interactive UI Elements</h2>
-      <button class="button fade-button">Fade</button>
-      <button class="button rotate-button">Rotate</button>
-      <input type="range" class="slider">
-      <div class="toggle-switch">
-        <input type="checkbox" class="toggle-checkbox">
-        <div class="toggle-slider"></div>
-      </div>
-    </section>
-
-    <!-- Pseudo-Element Section -->
-    <section class="pseudo-section">
-      <h2>Pseudo-Elements</h2>
-      <div class="decorative-box">Creative</div>
-      <div class="functional-box">Functional</div>
-    </section>
-
-    <!-- 3D Elements -->
-    <section class="cube-section">
-      <h2>3D Elements</h2>
-      <div class="cube-container">
-        <div class="cube">
-          <div class="cube-face front">Front</div>
-          <div class="cube-face back">Back</div>
-          <div class="cube-face left">Left</div>
-          <div class="cube-face right">Right</div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>Footer</footer>
+    <header>
+        <h1>CSS Mastery Demo</h1>
+    </header>
+    <main>
+        <!-- Interactivity Section -->
+        <section id="interactive-elements">
+            <h2>Interactive UI Elements</h2>
+            <button class="fade-button">Fade</button>
+            <button class="scale-button">Scale</button>
+            <div class="slider-container">
+                <input type="range" class="slider">
+            </div>
+        </section>
+        
+      <!-- Pseudo-Elements Section -->
+        <section id="pseudo-elements">
+          <h2>Pseudo-Elements</h2>
+          <div class="decorative-box"></div>
+          <div class="text-box">Hello World!</div>
+          <div class="select-box">Try Selecting This Text!</div>
+        </section>
+        
+        <!-- 3D Elements Section -->
+        <section id="3d-elements">
+            <h2>3D Elements</h2>
+            <div class="cube">
+                <div class="side front">Front</div>
+                <div class="side back">Back</div>
+                <div class="side left">Left</div>
+                <div class="side right">Right</div>
+                <div class="side top">Top</div>
+                <div class="side bottom">Bottom</div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>        
+        <!-- Custom Cursor Section -->
+        <section id="custom-cursor">
+            <h2>Custom Cursor</h2>
+            <div class="cursor-box">Hover me!</div>
+        </section>
+    </main>
 </body>
 </html>
